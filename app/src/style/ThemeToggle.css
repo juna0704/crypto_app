@@ -1,0 +1,12 @@
+/* Define default light theme styles */
+body {
+	background-color: white;
+	color: black;
+	transition: background-color 0.4s ease, color 0.2s ease;
+}
+
+/* Dark mode styles */
+:root.dark body {
+	background-color: #121212; /* Dark background */
+	color: white; /* Light text */
+}
